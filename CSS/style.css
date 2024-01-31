@@ -148,11 +148,12 @@ main {
 .Sign-up-content-text {
 	font-family: SharpGrotesk-Medium;
 	font-weight: 300;
+	padding-right: 10px;
 }
 /* Input field inside right div */
 .Sign-up-content input {
 	height: 50px;
-	width: 100%;
+	width: 350px;
 	border: 1px solid #000000;
 	border-radius: 10px;
 	margin: 20px 0px;
