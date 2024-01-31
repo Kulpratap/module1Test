@@ -4,22 +4,27 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+
 body {
 	position: relative;
 }
+
 /* Added font from font-folder */
 @font-face {
 	font-family: regularWorkSans;
 	src: url(../fonts/WorkSans-Regular.woff);
 }
+
 @font-face {
 	font-family: regularWorkSansSemiBold;
 	src: url(../fonts/WorkSans-SemiBold.woff);
 }
+
 @font-face {
 	font-family: SharpGrotesk-Medium;
 	src: url(../fonts/SharpGrotesk-Medium.woff);
 }
+
 /* container */
 .container {
 	margin: 0 auto;
@@ -32,6 +37,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 }
+
 /* nav anchor tags */
 nav a {
 	color: #000000;
@@ -39,22 +45,26 @@ nav a {
 	font-family: regularWorkSansSemiBold;
 	font-size: 16px;
 }
+
 /* top margin for nav logo(parallel) */
 .nav_logo {
 	margin-top: 5px;
 }
+
 /* navbar links */
 .nav_links {
 	display: flex;
 	align-items: center;
 	gap: 32px;
 }
+
 /* nav list */
 nav li {
 	list-style: none;
 }
+
 /* nav button */
-.nav_btn{
+.nav_btn {
 	cursor: pointer;
 	font-family: regularWorkSansSemiBold;
 	font-size: 16px;
@@ -64,15 +74,18 @@ nav li {
 	padding: 12px 30px;
 	margin-left: 10px;
 }
+
 /* nav button on hover */
-.nav_btn:hover{
+.nav_btn:hover {
 	transform: scale(1.1);
 }
+
 /* for comapnies nav item stlyling */
 #nav_company {
 	border-right: 2px solid #D2D2D2;
 	padding: 4px 30px 4px 0px;
 }
+
 /* syling for main content */
 main {
 	background-color: #fff7f1;
@@ -80,6 +93,7 @@ main {
 	background-repeat: no-repeat;
 	background-position: center 120px;
 }
+
 /* top button section in main content*/
 .top_buttons {
 	padding-top: 30px;
@@ -87,6 +101,7 @@ main {
 	justify-content: center;
 	gap: 15px;
 }
+
 /* top button section buttons */
 .main-top-btn {
 	font-family: regularWorkSansSemiBold;
@@ -96,17 +111,20 @@ main {
 	background-color: transparent;
 	padding: 10px 20px;
 }
+
 /* top buttons on hover */
 .main-top-btn:hover {
 	cursor: pointer;
 	border: 1px solid #000000;
 	background-color: #FFD560;
 }
+
 /* /styling of Life/Work heading */
 .heading-life {
 	font-family: SharpGrotesk-Medium;
 	margin-bottom: 12px;
 }
+
 /* Parallel section */
 .parallel {
 	display: flex;
@@ -114,17 +132,20 @@ main {
 	align-items: center;
 	padding: 0px;
 }
+
 /* parallel img */
 .parallel-img {
 	width: 95%;
 	height: 100%;
 }
+
 /* right div of parallel section */
 .parallel-text-content {
 	margin-right: 36px;
 	padding-right: 40px;
 	width: 36%;
 }
+
 /*stlying of text inside right div of parallel section */
 .parallel-text {
 	font-weight: 300;
@@ -132,6 +153,7 @@ main {
 	font-size: 32px;
 	font-family: SharpGrotesk-Medium;
 }
+
 /* sign-up section style */
 .Sign-up {
 	display: flex;
@@ -139,17 +161,20 @@ main {
 	justify-content: space-between;
 	padding: 0px;
 }
+
 /* styling of content inside sign up */
 .Sign-up-content {
 	margin-right: 116px;
 	width: 23%;
 }
+
 /* sign up div text */
 .Sign-up-content-text {
 	font-family: SharpGrotesk-Medium;
 	font-weight: 300;
 	padding-right: 10px;
 }
+
 /* Input field inside right div */
 .Sign-up-content input {
 	height: 50px;
@@ -158,6 +183,7 @@ main {
 	border-radius: 10px;
 	margin: 20px 0px;
 }
+
 /* Placeholder of input */
 .Sign-up-content input::placeholder {
 	font-family: regularWorkSans;
@@ -165,6 +191,7 @@ main {
 	font-size: 18px;
 	padding: 4px 24px;
 }
+
 /* Sign up button stlye */
 .Sign-up-btn {
 	cursor: pointer;
@@ -175,7 +202,8 @@ main {
 	background-color: #FFD560;
 	padding: 12px 24px;
 }
+
 /* Sign up button on hover*/
-.Sign-up-btn:hover{
+.Sign-up-btn:hover {
 	transform: scale(1.1);
 }
