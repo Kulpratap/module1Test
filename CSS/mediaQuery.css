@@ -1,0 +1,62 @@
+/* media queries */
+@media screen and (max-width:1400px) {
+	/* media query for handling container */
+	.container {
+		width: 1140px;
+	}
+	/*Reduce gap between nav_links*/
+	.nav_links {
+		gap: 20px;
+	}
+	/*Reduce gap between top buttons*/
+	.top_buttons {
+		gap: 10px;
+	}
+	/* Reduce padding between top button*/
+	.main-top-btn {
+		padding: 10px 20px;
+	}
+	/*Reducing margin on parallel image*/
+	.parallel-img {
+		margin-right: 0px;
+	}
+	/* parallel justify content change*/
+	.parallel{
+		justify-content: space-between;
+	}
+	/* Change style of right div of parallel section*/
+	.parallel-text-content {
+		padding-right: 0px;
+		margin-right: 0px;
+		width: 30%;
+	}
+	/* changing style of right sign up section*/
+	.Sign-up-content {
+		margin-right: 60px;
+		width: 23%;
+	}
+}
+@media screen and (max-width:1200px) {
+	/* media query for handling container */
+	.container {
+		width: 960px;
+	}
+}
+@media screen and (max-width:992px) {
+	/* media query for handling container */
+	.container {
+		width: 720px;
+	}
+}
+@media screen and (max-width:768px) {
+	/* media query for handling container */
+	.container {
+		width: 540px;
+	}
+}
+@media screen and (max-width:576px) {
+	/* media query for handling container */
+	.container {
+		width: 100%;
+	}
+}
